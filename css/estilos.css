@@ -1,0 +1,199 @@
+/* Resset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Colores: 
+Gris: #E3E3E3 [BANNER Y FOOTER] 
+Negro: #1A1A1A [TEXTO]
+Blanco: #F5F5F5 [FONDO]
+Naranja: #FF7E00 [CORPORATIVO]
+Naranja Pálido: #fef6ec [VARIANTE CORPORATIVA]
+Azul: #00A6FF [SECUNDARIO]
+*/
+
+/* Fuente Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 25px;
+    background-color: #1A1A1A;
+    color: #E3E3E3;
+    text-decoration: none;
+    border-radius: 0 0 20px 20px;
+}
+
+header img {
+    height: 30px;
+}
+
+header ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #E3E3E3;
+    font-weight: 600;
+}
+
+header a:hover {
+    color: #00A6FF;
+}
+
+/* Main de la home */
+
+body {
+    font-family: 'Google Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    /* Esto empuja el footer hacia abajo */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+iframe {
+    width: 49%;
+    border: none;
+    border-radius: 10px;
+}
+
+.galeria-behance {
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #FF7E00;
+    color: #1A1A1A;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #F5F5F5;
+    border: #FF7E00 solid 3px;
+}
+
+/* Main de trabajos */
+
+.filtros-trabajos a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: 600;
+    background-color: #00A6FF;
+    border-radius: 5px;
+}
+
+.img-trabajos img {
+    border-radius: 10px;
+    margin: 50px;
+}
+
+
+/* Main de contacto */
+
+/* Formulario */
+
+.form-contacto form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-contacto label {
+    font-weight: 600;
+    color: #1A1A1A;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.form-contacto input,
+.form-contacto textarea,
+.form-contacto select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #E3E3E3;
+    border-radius: 8px;
+    font-family: 'Google Sans', sans-serif;
+    font-size: 1rem;
+    color: #1A1A1A;
+    background-color: #F5F5F5;
+    transition: border-color 0.3s;
+    outline: none;
+}
+
+/* Efecto al hacer foco en el campo */
+.form-contacto input:focus,
+.form-contacto textarea:focus,
+.form-contacto select:focus {
+    border-color: #FF7E00;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 25px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A1A1A;
+    border-radius: 20px 20px 0 0;
+}
+
+footer img {
+    height: 30px;
+}
+
+
+
+/* Media Queries */
+
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+
+}
+
+/* Para pantallas medianas (tablets) */
+@media (min-width: 481px) and (max-width: 978px) {
+
+}
+
+/* Para pantallas grandes (escritorios) */
+@media (min-width: 979px) {
+
+}
