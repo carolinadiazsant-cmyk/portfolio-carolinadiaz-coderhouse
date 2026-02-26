@@ -37,6 +37,11 @@ header img {
     height: 30px;
 }
 
+header img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
 header ul {
     margin: 0;
     padding: 0;
@@ -74,6 +79,10 @@ main {
     margin-right: 6%;
 }
 
+.intro {
+    width: 50%;
+}
+
 h1 {
     margin-bottom: 1rem;
     margin-top: 1.5rem;
@@ -109,8 +118,9 @@ button {
 }
 
 button:hover {
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     border: #FF7E00 solid 3px;
+
 }
 
 /* Main de trabajos */
@@ -146,6 +156,7 @@ button:hover {
 /* Formulario */
 
 .form-contacto form {
+    display: flex;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -219,6 +230,10 @@ footer img {
         padding: 0;
     }
 
+.intro {
+    width: 100%;
+}
+
      h1 {
         font-size: 2rem;
     }
@@ -248,6 +263,10 @@ footer img {
 /* Para pantallas medianas (tablets) */
 @media (min-width: 481px) and (max-width: 978px) {
     
+.intro {
+    width: 70%;
+}
+
     h1 {
         font-size: 2rem;
     }
