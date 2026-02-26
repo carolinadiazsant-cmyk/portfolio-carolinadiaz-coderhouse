@@ -38,11 +38,14 @@ header img {
 }
 
 header ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
     text-align: center;
     display: flex;
     justify-content: flex-end;
     gap: 20px;
+
 }
 
 header a {
@@ -67,30 +70,34 @@ body {
 main {
     flex-grow: 1;
     /* Esto empuja el footer hacia abajo */
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
 h1 {
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
     font-size: 3rem;
 }
 
 iframe {
-    width: 49%;
     border: none;
     border-radius: 10px;
+    width: 49%;
 }
 
+
 .galeria-behance {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 button {
     margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 10px;
+    margin-bottom: 1rem;
+    padding: 1rem;
     background-color: #FF7E00;
     color: #1A1A1A;
     border-radius: 5px;
@@ -121,6 +128,15 @@ button:hover {
     margin: 50px;
 }
 
+/* Main Sobre mi */
+
+.info-cv{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    gap: 20px;
+}
 
 /* Main de contacto */
 
@@ -198,13 +214,39 @@ footer img {
         padding: 0;
     }
 
+     h1 {
+        font-size: 2rem;
+    }
+
     iframe {
         width: 100%;
         margin-bottom: 20px;
     }
 
+    .galeria-behance {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .info-cv {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 /* Para pantallas medianas (tablets) */
-@media (min-width: 481px) and (max-width: 978px) 
+@media (min-width: 481px) and (max-width: 978px) {
+    
+    h1 {
+        font-size: 2rem;
+    }
 
+    .info-cv {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
