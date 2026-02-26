@@ -180,20 +180,31 @@ footer img {
 }
 
 
-
 /* Media Queries */
 
 /* Para pantallas pequeñas (móviles) */
 @media (max-width: 480px) {
 
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }    
+
+    header ul {
+        flex-direction: row;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    iframe {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
 }
 
 /* Para pantallas medianas (tablets) */
-@media (min-width: 481px) and (max-width: 978px) {
+@media (min-width: 481px) and (max-width: 978px) 
 
-}
-
-/* Para pantallas grandes (escritorios) */
-@media (min-width: 979px) {
-
-}
