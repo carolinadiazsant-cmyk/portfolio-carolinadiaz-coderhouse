@@ -55,7 +55,7 @@ header a {
 }
 
 header a:hover {
-    color: #00A6FF;
+    color: #FF7E00;
 }
 
 /* Main de la home */
@@ -115,14 +115,6 @@ button:hover {
 
 /* Main de trabajos */
 
-.filtros-trabajos a {
-    text-decoration: none;
-    color: #1A1A1A;
-    font-weight: 600;
-    background-color: #00A6FF;
-    border-radius: 5px;
-}
-
 .img-trabajos img {
     border-radius: 10px;
     margin: 50px;
@@ -130,12 +122,23 @@ button:hover {
 
 /* Main Sobre mi */
 
-.info-cv{
-    display: flex;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    justify-content: center;
+.info-cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
+}
+
+.estudios {
+    margin-top: 2rem;
+
+}
+
+.experiencia {
+    margin-top: 2rem;
+    margin-bottom: 2rem;}
+
+.card {
+    margin-bottom: 1REM;
 }
 
 /* Main de contacto */
@@ -205,6 +208,8 @@ footer img {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        margin-left: 2%;
+        margin-right: 2%;
     }    
 
     header ul {
@@ -228,11 +233,15 @@ footer img {
         flex-direction: column;
         gap: 20px;
     }
-    
+
+    footer {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
     .info-cv {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+    display: flex;
+    flex-direction: column;
     }
 }
 
@@ -244,9 +253,8 @@ footer img {
     }
 
     .info-cv {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+    display: flex;
+    flex-direction: column;
     }
 
 }
