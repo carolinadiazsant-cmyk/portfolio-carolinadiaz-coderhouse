@@ -7,11 +7,10 @@
 }
 
 /* Colores: 
-Gris: #E3E3E3 [BANNER Y FOOTER] 
+Blanco: #E3E3E3 [BANNER Y FOOTER] 
 Negro: #1A1A1A [TEXTO]
-Blanco: #F5F5F5 [FONDO]
+Negro-2: #242424 [Fondo de la página]
 Naranja: #FF7E00 [CORPORATIVO]
-Naranja Pálido: #fef6ec [VARIANTE CORPORATIVA]
 Azul: #00A6FF [SECUNDARIO]
 */
 
@@ -30,16 +29,16 @@ header {
     background-color: #1A1A1A;
     text-decoration: none;
     border-radius: 0 0 20px 20px;
-}
+    }
 
 header img {
     height: 30px;
-}
+    }
 
 header img:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
-}
+    }
 
 header ul {
     margin: 0;
@@ -50,17 +49,17 @@ header ul {
     justify-content: flex-end;
     gap: 20px;
 
-}
+    }
 
 header a {
     text-decoration: none;
     color: #E3E3E3;
     font-weight: 600;
-}
+    }
 
 header a:hover {
     color: #FF7E00;
-}
+    }
 
 /* Main de la home */
 
@@ -70,7 +69,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #242424;
-}
+    }
 
 main {
     flex-grow: 1;
@@ -78,37 +77,37 @@ main {
     margin-left: 6%;
     margin-right: 6%;
     color: #E3E3E3;
-}
+    }
 
 .intro {
     width: 50%;
     margin-bottom: 2rem;
 
-}
+    }
 
 h1 {
     margin-bottom: 1rem;
     margin-top: 1.5rem;
     font-size: 3rem;
-}
+    font-weight: 700;
+    }
 
 h3 {
     margin-bottom: 1rem;
-}
+    }
 
 iframe {
     border: none;
     border-radius: 10px;
     width: 49%;
-}
-
+    }
 
 .galeria-behance {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
-}
+    }
 
 button {
     margin-top: 10px;
@@ -122,21 +121,21 @@ button {
     font-weight: 600;
     font-size: 0.8rem;
     text-transform: uppercase;
-}
+    }
 
 button:hover {
     background-color: #242424;
     color: #FF7E00;
     border: #FF7E00 solid 3px;
 
-}
+    }
 
 /* Main de trabajos */
 
 .img-trabajos img {
     border-radius: 10px;
     margin: 50px;
-}
+    }
 
 /* Main Sobre mi */
 
@@ -144,15 +143,13 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-}
+    }
 
 .card {
     margin-bottom: 1REM;
-}
+    }
 
 /* Main de contacto */
-
-/* Formulario */
 
 .form-contacto form {
     display: flex;
@@ -160,14 +157,14 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 15px;
-}
+    }
 
 .form-contacto label {
     font-weight: 600;
     color: #E3E3E3;
     margin-bottom: 4px;
     display: block;
-}
+    }
 
 .form-contacto input,
 .form-contacto textarea,
@@ -178,18 +175,18 @@ button:hover {
     border-radius: 8px;
     font-family: 'Google Sans', sans-serif;
     font-size: 1rem;
-    color: #e3e3e3;
+    color: #1A1A1A;
     background-color: #F5F5F5;
     transition: border-color 0.3s;
     outline: none;
-}
+    }
 
 /* Efecto al hacer foco en el campo */
 .form-contacto input:focus,
 .form-contacto textarea:focus,
 .form-contacto select:focus {
     border-color: #FF7E00;
-}
+    }
 
 /* Footer */
 footer {
@@ -202,11 +199,11 @@ footer {
     justify-content: center;
     background-color: #1A1A1A;
     border-radius: 20px 20px 0 0;
-}
+    }
 
 footer img {
     height: 30px;
-}
+    }
 
 
 /* Media Queries */
@@ -231,7 +228,7 @@ footer img {
 
 .intro {
     width: 100%;
-}
+    }
 
      h1 {
         font-size: 2rem;
