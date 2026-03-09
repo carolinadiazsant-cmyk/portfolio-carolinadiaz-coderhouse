@@ -1,0 +1,14 @@
+section {
+    iframe {
+        border: none;
+        border-radius: 10px;
+        width: 49%;
+
+        .galeria-behance {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+    }
+}
