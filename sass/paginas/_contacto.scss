@@ -1,0 +1,48 @@
+@use '../generales/variables' as*;
+
+/* Main de contacto */
+
+.p-contacto {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-contacto {
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    label {
+        font-weight: 600;
+        color: $blanco;
+        margin-bottom: 4px;
+        display: block;
+    }
+
+    input,
+    textarea,
+    select {
+        width: 100%;
+        padding: 12px 15px;
+        border: 2px solid $blanco;
+        border-radius: 8px;
+        font-family: $font-family;
+        font-size: 1rem;
+        color: $negro;
+        background-color: $blanco;
+        transition: border-color 0.3s;
+        outline: none;
+    }
+
+    /* Efecto al hacer foco en el campo */
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+        border-color: $naranja;
+    }
+}

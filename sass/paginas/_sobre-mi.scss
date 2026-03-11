@@ -1,0 +1,29 @@
+@use '../generales/variables' as*;
+
+/* Main Sobre mi */
+
+.info-cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    h5 {
+        color: $azul;
+    }
+}
+
+.card {
+    margin-bottom: 1REM;
+    background-color: $negro;
+
+    &:hover {
+        transform: scale(1.02);
+        transition: transform 0.3s ease;
+    }
+}
+
+.experiencia {
+    h5 {
+        color: $naranja;
+    }
+}

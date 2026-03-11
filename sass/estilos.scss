@@ -1,7 +1,13 @@
+// Archivo principal de estilos Sass
 
 @use './generales/general';
-@use './paginas/home';    
+
+@use './paginas/home';
+
 @use './paginas/trabajos';
+
 @use './paginas/sobre-mi';
+
 @use './paginas/contacto';
+
 @use './generales/media-queries';

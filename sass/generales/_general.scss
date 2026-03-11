@@ -45,14 +45,13 @@ header {
             color: $blanco;
             font-weight: 600;
 
-            a:hover {
+            &:hover {
                 color: $naranja;
             }
-
-            .actual {
+        }
+        .actual {
                 color: $azul;
             }
-        }
     }
 }
 
@@ -115,6 +114,8 @@ body {
 
     }
 
+    /* Footer */
+
     footer {
         display: flex;
         margin-left: 5%;
@@ -123,7 +124,7 @@ body {
         gap: 20px;
         align-items: center;
         justify-content: center;
-        background-color: #1A1A1A;
+        background-color: $negro;
         border-radius: 20px 20px 0 0;
 
         img {
