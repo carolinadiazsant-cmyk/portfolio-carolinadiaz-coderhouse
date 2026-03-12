@@ -2,19 +2,19 @@
 
 /* Main de trabajos */
 
-.img-trabajos {
-    img {
-        border-radius: 10px;
-        margin: 50px;
-    }
-}
 
 .cajas-proyectos {
     .card {
         background-color: $negro;
+        border-radius: 10px;
+
         &:hover {
         transform: scale(1.02);    
         transition: transform 0.3s ease;
         }
+        
+        img {
+        border-radius: 10px 10px 0px 0px;
+    }
     }
 }      

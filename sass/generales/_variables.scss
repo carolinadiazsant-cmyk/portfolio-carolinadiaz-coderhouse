@@ -10,3 +10,45 @@ $azul: #00A6FF;
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 
 $font-family: 'Google Sans', sans-serif;
+
+// Animaciones
+
+@keyframes fadein-header {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadein-footer {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes opacidad {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// Extend
+
+@mixin adapt-mv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
