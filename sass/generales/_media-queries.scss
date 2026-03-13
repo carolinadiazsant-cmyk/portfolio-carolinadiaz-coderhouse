@@ -4,21 +4,23 @@
 
 @media (max-width: 480px) {
 
-    header {
-        margin-left: 2%;
-        margin-right: 2%;
-        @include adapt-mv;
-
-        ul {
-            flex-direction: row;
-            gap: 20px;
-            margin: 0;
-            padding: 0;
-        }
-    }
-
     body {
+
+        header {
+            margin-left: 2%;
+            margin-right: 2%;
+            @include adapt-mv;
+
+            ul {
+                flex-direction: row;
+                gap: 20px;
+                margin: 0;
+                padding: 0;
+            }
+        }
+
         main {
+
             .intro {
                 width: 100%;
 
@@ -49,9 +51,9 @@
         }
 
         .p-contacto {
-            margin-top: 5%;
+            width: 100%;
             display: flex;
-            @include adapt-mv;
+            flex-direction: column;
         }
     }
 }
