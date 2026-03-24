@@ -101,8 +101,14 @@ body main h1 {
   font-size: 3rem;
   font-weight: 700;
 }
+body main h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
 body main h3 {
   margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 body main .button-galeria, body main .button-form {
   margin-top: 10px;
@@ -183,6 +189,10 @@ section iframe .galeria-behance {
   transform: scale(1.02);
   transition: transform 0.3s ease;
 }
+.cajas-proyectos .card h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
 .cajas-proyectos .card img {
   border-radius: 10px 10px 0px 0px;
 }
@@ -193,7 +203,7 @@ section iframe .galeria-behance {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
-.info-cv h5 {
+.info-cv h3 {
   color: #00A6FF;
 }
 
@@ -206,7 +216,7 @@ section iframe .galeria-behance {
   transition: transform 0.3s ease;
 }
 
-.experiencia h5 {
+.experiencia h3 {
   color: #FF7E00;
 }
 
@@ -274,6 +284,12 @@ section iframe .galeria-behance {
   body main .intro h1 {
     font-size: 2rem;
   }
+  body main .intro h2 {
+    font-size: 1.5rem;
+  }
+  body main .intro h3 {
+    font-size: 1.2rem;
+  }
   body .galeria-behance {
     display: flex;
     flex-direction: column;
@@ -305,6 +321,12 @@ section iframe .galeria-behance {
   }
   body main .intro h1 {
     font-size: 2rem;
+  }
+  body main .intro h2 {
+    font-size: 1.5rem;
+  }
+  body main .intro h3 {
+    font-size: 1.2rem;
   }
   body main .info-cv {
     display: flex;
