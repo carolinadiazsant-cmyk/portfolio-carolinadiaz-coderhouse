@@ -163,21 +163,25 @@ body footer img:hover {
 }
 
 /* Main de la home */
+section .galeria-behance {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+section .galeria-behance .frame-1, section .galeria-behance .frame-2 {
+  width: 48%;
+  margin-bottom: 20px;
+}
 section iframe {
   border: none;
   border-radius: 10px;
-  width: 49%;
+  width: 100%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 section iframe:hover {
   transform: scale(1.1);
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
-}
-section iframe .galeria-behance {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 20px;
 }
 
 /* Main de trabajos */
@@ -267,6 +271,7 @@ section iframe .galeria-behance {
   body header {
     margin-left: 2%;
     margin-right: 2%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -278,25 +283,27 @@ section iframe .galeria-behance {
     margin: 0;
     padding: 0;
   }
+  body main h1 {
+    font-size: 2rem;
+  }
+  body main h2 {
+    font-size: 1.5rem;
+  }
+  body main h3 {
+    font-size: 1.2rem;
+  }
   body main .intro {
     width: 100%;
   }
-  body main .intro h1 {
-    font-size: 2rem;
-  }
-  body main .intro h2 {
-    font-size: 1.5rem;
-  }
-  body main .intro h3 {
-    font-size: 1.2rem;
-  }
   body .galeria-behance {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
   }
-  body .galeria-behance iframe {
+  body .galeria-behance .frame-1,
+  body .galeria-behance .frame-2 {
     width: 100%;
     margin-bottom: 20px;
   }
@@ -319,18 +326,30 @@ section iframe .galeria-behance {
   body main .intro {
     width: 70%;
   }
-  body main .intro h1 {
+  body main h1 {
     font-size: 2rem;
   }
-  body main .intro h2 {
+  body main h2 {
     font-size: 1.5rem;
   }
-  body main .intro h3 {
+  body main h3 {
     font-size: 1.2rem;
   }
   body main .info-cv {
     display: flex;
     flex-direction: column;
+  }
+  body main .galeria-behance {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  body main .galeria-behance .frame-1,
+  body main .galeria-behance .frame-2 {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 
