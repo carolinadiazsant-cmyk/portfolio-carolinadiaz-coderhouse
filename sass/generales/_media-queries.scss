@@ -48,6 +48,9 @@
                 width: 100%;
                 margin-bottom: 20px;
             }
+             iframe:hover {
+                    transform: none;
+                    box-shadow: none;
         }
 
         footer {
@@ -103,9 +106,10 @@
                 .frame-2 {
                     width: 100%;
                     margin-bottom: 20px;
-
                 }
-
+                 iframe:hover {
+                    transform: none;
+                    box-shadow: none;
             }
         }
     }
