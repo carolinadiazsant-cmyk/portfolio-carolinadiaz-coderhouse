@@ -47,10 +47,6 @@
             .frame-2 {
                 width: 100%;
                 margin-bottom: 20px;
-
-                &:hover {
-                    transform: none;
-                }
             }
         }
 
@@ -108,13 +104,17 @@
                     width: 100%;
                     margin-bottom: 20px;
 
-                    &:hover {
-                        transform: none;
-                    }
-
                 }
 
             }
         }
+    }
+}
+
+/* Para deshabilitar hover */
+@media (hover: none) {
+    .galeria-behance iframe:hover {
+        transform: none;
+        box-shadow: none;
     }
 }
