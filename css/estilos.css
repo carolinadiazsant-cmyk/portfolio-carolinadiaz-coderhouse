@@ -310,6 +310,10 @@ body footer img:hover {
     width: 100%;
     margin-bottom: 20px;
   }
+  body .galeria-behance .frame-1:hover,
+  body .galeria-behance .frame-2:hover {
+    transform: none;
+  }
   body footer {
     margin-left: 2%;
     margin-right: 2%;
@@ -353,6 +357,10 @@ body footer img:hover {
   body main .galeria-behance .frame-2 {
     width: 100%;
     margin-bottom: 20px;
+  }
+  body main .galeria-behance .frame-1:hover,
+  body main .galeria-behance .frame-2:hover {
+    transform: none;
   }
 }
 
